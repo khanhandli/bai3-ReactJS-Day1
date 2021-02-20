@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Prop from './Prop';
+import Baitap1 from './Baitap1.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Baitap1 />
   </React.StrictMode>,
   document.getElementById('root')
 );
