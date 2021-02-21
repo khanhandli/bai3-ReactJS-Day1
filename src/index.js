@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Prop from './Prop';
-import Baitap1 from './Baitap1.js';
+import Baitap1 from './Baitap1';
+import Baitap2 from './Baitap2';
+import Form from './Form';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Baitap1 />
+    <Baitap2 />
   </React.StrictMode>,
   document.getElementById('root')
 );
